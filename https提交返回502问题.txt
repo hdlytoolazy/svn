@@ -3,8 +3,8 @@
 则出现了问题。
 
 首先修改svn地址不难，具体如下：
-
-![Alt text](https://github.com/hdlytoolazy/svn/raw/master/raw/Screenshots/20171208103831.png)
+https://github.com/hdlytoolazy/svn/raw/master/raw/Screenshots/20171208103831.png
+![Alt text](https://raw.githubusercontent.com/hdlytoolazy/svn/master/raw/Screenshots/20171208103831.png)
 
 修改完毕之后，svn上已存在的文件update和commit均无问题，但新文件的commit却始终报502。由于在变更地址前没有这种问题，
 
