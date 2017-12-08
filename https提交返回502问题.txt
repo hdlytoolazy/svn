@@ -4,7 +4,7 @@
 
 首先修改svn地址不难，具体如下：
 
-![Alt text](https://github.com/hdlytoolazy/svn/raw/master/Screenshots/20171208103831.png)
+![Alt text](https://github.com/hdlytoolazy/svn/raw/master/raw/Screenshots/20171208103831.png)
 
 修改完毕之后，svn上已存在的文件update和commit均无问题，但新文件的commit却始终报502。由于在变更地址前没有这种问题，
 
@@ -14,7 +14,7 @@
 
 在nginx下增加这个配置就可以了：
 
-![Alt text](https://github.com/hdlytoolazy/svn/raw/master/Screenshots/20171208105530.png)
+![Alt text](https://github.com/hdlytoolazy/svn/raw/master/raw/Screenshots/20171208105530.png)
 
 
 原文地址：https://stackoverflow.com/questions/2479346/502-bad-gateway-with-nginx-apache-subversion-ssl-svn-copy
