@@ -1,10 +1,10 @@
-1，我fork了一个同事的项目A到我个人账户下，称为项目B。后来同事修改了一些信息，我需要将修改的信息同步到我账户下的项目B。
+1，我fork了一个项目A到我个人账户下，称为项目B。后来同事修改了一些信息，我需要将修改的信息同步到我账户下的项目B。
 
 #添加项目A的远程仓库地址到upstream
 
-git remote add upstream <你朋友项目A的仓库地址>
+git remote add upstream <项目A的仓库地址>
 
-#把项目A的更新来到本地的upstream里
+#把项目A的更新拉到本地的upstream里
 
 git fetch upstream
 
